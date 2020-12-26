@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="center col-md-12">
+                <div class="card">
+                    <div style="display: flex; justify-content: space-between;" class=" card-body">
+                        <div class="left-side">
+                            <img src="https://volstar-official.jp/media/wp-content/themes/jin/img/woman2.png" style="width: 120px;" alt="profile-photo">
+                            <h6 style="color: darkgreen; margin-top: 8px; width: 180px;" class="card-title">View Profile & Reviews</h6>
+                            <a href="#" class="btn btn-success">Select & Continue</a>
+                            <p class="card-text" style="width: 10rem; text-align: center;"> <br> With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="right-side">
+                            <div style="display: flex; justify-content: space-between;">
+                                <div>
+                                    <h4>Name </h4>
+                                    <div><i class="fa fa-check-square"></i> Painting Tasks 100%</div>
+                                    <div><i class=" fa fa-star"></i> Positive Reviews <i class="fa fa-exclamation-circle"></i></div>
+                                    <div><i class="fa fa-check-circle"></i> 96% Reliable <i class="fa fa-exclamation-circle"></i></div>
+                                    <div> <i class="fa fa-car"></i>Vehicle Car</div>
+                                </div>
+                                <div>
+                                    <h5>$34.11/hr <br><button class="btn btn-success" style="margin-top: 10px;">Great value</button> </h5>
+                                </div>
+                            </div>
+
+
+                            <hr>
+                            <h5>How I can help</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <a style="color: darkgreen;" onclick="myFunction()" id="myBtn">Read more</a>
+                            <div style="display: flex; justify-content: space-between;" class=" Reviews">
+                                <img src="https://volstar-official.jp/media/wp-content/themes/jin/img/woman2.png" style="width: 100px;" alt="profile-photo">
+                                <p style="margin-top:40px"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure placeat et nulla. Et odit, quo unde cupiditate aliquam iusto quibusdam? <br> <small>Name, November 24,2020</small></p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
