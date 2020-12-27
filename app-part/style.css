@@ -1,0 +1,17 @@
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 37%;
+    height: 479px;
+    margin-left: 328px;
+    margin-top: 58px;
+    border-radius: 30px;
+}
+
+.right-side {
+    margin-top: 80px;
+}
+
+.right-side h4:hover {
+    color: blueviolet;
+    transition-delay: 0.2s;
+}
